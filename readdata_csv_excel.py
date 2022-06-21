@@ -1,7 +1,7 @@
 # exercise for reading and manipulating a csv and excel file
 import pandas as pd
 
-index = pd.read_csv("index.csv")
+index = pd.read_csv("exercise\index.csv")
 
 # access 3rd column
 column = index.iloc[:, 2:3]
